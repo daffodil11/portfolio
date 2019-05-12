@@ -2,10 +2,23 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
 .page-wrapper {
     width: auto;
     max-width: 960px;
     margin: 0 auto;
+}
+
+a {
+    color: inherit;
 }
 
 a.skip-link {
@@ -39,6 +52,11 @@ nav ul li {
 
 nav ul li.nav-list__bio {
     border: 3px solid black;
+}
+
+nav ul li.nav-list__bio {
+    /*font-family: 'Righteous', sans-serif;*/
+    font-family: 'Pompiere', sans-serif;
 }
 
 nav ul li * {

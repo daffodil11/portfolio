@@ -72,6 +72,10 @@ nav ul li * {
 section.bio img {
     float: right;
     margin: 0 0 1rem 1rem;
+    max-width: 240px;
+    max-height: 312px;
+    width: 50%;
+    height: auto;
 }
 
 img.logo {
